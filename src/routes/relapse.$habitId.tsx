@@ -11,7 +11,7 @@ import { Heart, ArrowRight, ArrowLeft, RotateCcw, AlertTriangle, Volume2 } from 
 export const Route = createFileRoute("/relapse/$habitId")({
   head: () => ({
     meta: [
-      { title: "Relapse post-mortem — Resurge" },
+      { title: "Relapse post-mortem — Ene me" },
       { name: "description", content: "Honest, non-shaming wizard to learn from a slip and update your recovery plan." },
     ],
   }),

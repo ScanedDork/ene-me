@@ -9,7 +9,7 @@ import { Settings as SettingsIcon, Bell, Shield, Trash2, Plus, Sparkles } from "
 import { useEffect, useMemo, useState } from "react";
 
 export const Route = createFileRoute("/settings")({
-  head: () => ({ meta: [{ title: "Settings — Resurge" }, { name: "description", content: "Configure reminders and streak protection." }] }),
+  head: () => ({ meta: [{ title: "Settings — Ene me" }, { name: "description", content: "Configure reminders and streak protection." }] }),
   component: SettingsPage,
 });
 
@@ -38,7 +38,7 @@ function SettingsPage() {
         if (localStorage.getItem(firedKey)) return;
         localStorage.setItem(firedKey, "1");
         if (permission === "granted") {
-          new Notification("Resurge", { body: r.label });
+          new Notification("Ene me", { body: r.label });
         }
       });
     }, 30_000);

@@ -8,7 +8,7 @@ import { Play, Pause, RotateCcw, Wind } from "lucide-react";
 export const Route = createFileRoute("/meditate")({
   head: () => ({
     meta: [
-      { title: "Meditate — Resurge" },
+      { title: "Meditate — Ene me" },
       { name: "description", content: "Guided breathing and meditation sessions to ride out urges and calm the mind." },
     ],
   }),

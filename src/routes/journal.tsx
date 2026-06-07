@@ -9,7 +9,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { BookHeart, Sparkles, Mic, MicOff, Wand2 } from "lucide-react";
 
 export const Route = createFileRoute("/journal")({
-  head: () => ({ meta: [{ title: "Journal — Resurge" }, { name: "description", content: "Daily mood, craving, and reflection log." }] }),
+  head: () => ({ meta: [{ title: "Journal — Ene me" }, { name: "description", content: "Daily mood, craving, and reflection log." }] }),
   component: Journal,
 });
 

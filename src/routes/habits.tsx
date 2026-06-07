@@ -10,7 +10,7 @@ import { Plus, Trash2, RotateCcw, Target, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 export const Route = createFileRoute("/habits")({
-  head: () => ({ meta: [{ title: "My Habits — Resurge" }, { name: "description", content: "Track every habit you're breaking." }] }),
+  head: () => ({ meta: [{ title: "My Habits — Ene me" }, { name: "description", content: "Track every habit you're breaking." }] }),
   component: Habits,
 });
 

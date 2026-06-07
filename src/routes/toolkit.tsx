@@ -9,7 +9,7 @@ import { useState } from "react";
 import { Brain, Calculator, Quote, Heart, Wrench, ListChecks } from "lucide-react";
 
 export const Route = createFileRoute("/toolkit")({
-  head: () => ({ meta: [{ title: "Toolkit — Resurge" }, { name: "description", content: "CBT exercises, cost calculator, future-self letter, and more recovery tools." }] }),
+  head: () => ({ meta: [{ title: "Toolkit — Ene me" }, { name: "description", content: "CBT exercises, cost calculator, future-self letter, and more recovery tools." }] }),
   component: Toolkit,
 });
 

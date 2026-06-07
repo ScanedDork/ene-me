@@ -5,7 +5,7 @@ import { Progress } from "@/components/ui/progress";
 import { Trophy } from "lucide-react";
 
 export const Route = createFileRoute("/milestones")({
-  head: () => ({ meta: [{ title: "Milestones — Resurge" }, { name: "description", content: "Badges and achievements as you progress." }] }),
+  head: () => ({ meta: [{ title: "Milestones — Ene me" }, { name: "description", content: "Badges and achievements as you progress." }] }),
   component: Milestones,
 });
 

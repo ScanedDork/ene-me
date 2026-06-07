@@ -7,7 +7,7 @@ import { FileText, Download } from "lucide-react";
 import { useMemo, useState } from "react";
 
 export const Route = createFileRoute("/reports")({
-  head: () => ({ meta: [{ title: "Monthly Report — Resurge" }, { name: "description", content: "Download a beautiful monthly progress PDF." }] }),
+  head: () => ({ meta: [{ title: "Monthly Report — Ene me" }, { name: "description", content: "Download a beautiful monthly progress PDF." }] }),
   component: Reports,
 });
 
@@ -74,7 +74,7 @@ function Reports() {
     doc.rect(0, 0, 210, 60, "F");
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(28);
-    doc.text("Resurge — Monthly Report", 14, 30);
+    doc.text("Ene me — Monthly Report", 14, 30);
     doc.setFontSize(14);
     doc.text(monthLabel, 14, 42);
     doc.setTextColor(0, 0, 0);

@@ -9,7 +9,7 @@ import { useState } from "react";
 import { chat, isAIReady } from "@/lib/ai-client";
 
 export const Route = createFileRoute("/cbt")({
-  head: () => ({ meta: [{ title: "CBT — Resurge" }, { name: "description", content: "Guided cognitive reframe: map the urge, name the distortion, rewrite the thought." }] }),
+  head: () => ({ meta: [{ title: "CBT — Ene me" }, { name: "description", content: "Guided cognitive reframe: map the urge, name the distortion, rewrite the thought." }] }),
   component: CBT,
 });
 

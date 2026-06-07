@@ -11,7 +11,7 @@ import { UserCircle, Plus, Trash2 } from "lucide-react";
 export const Route = createFileRoute("/identity")({
   head: () => ({
     meta: [
-      { title: "Identity — Resurge" },
+      { title: "Identity — Ene me" },
       { name: "description", content: "Reframe streaks around who you're becoming." },
     ],
   }),

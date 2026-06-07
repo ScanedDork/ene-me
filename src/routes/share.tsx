@@ -8,7 +8,7 @@ import { Copy, Check, Flame, Trophy, Heart, Share2 } from "lucide-react";
 export const Route = createFileRoute("/share")({
   head: () => ({
     meta: [
-      { title: "Share your progress — Resurge" },
+      { title: "Share your progress — Ene me" },
       { name: "description", content: "Generate a read-only link to share your recovery streak with an accountability partner." },
     ],
   }),

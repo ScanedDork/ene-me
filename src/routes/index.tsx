@@ -9,7 +9,7 @@ import { useMemo, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Resurge" },
+      { title: "Dashboard — Ene me" },
       { name: "description", content: "Your recovery dashboard: streaks, savings, milestones, and quick actions." },
     ],
   }),
@@ -37,7 +37,7 @@ function Dashboard() {
           <div className="grid place-items-center h-14 w-14 rounded-2xl bg-primary text-primary-foreground mx-auto shadow-glow">
             <Flame className="h-7 w-7" />
           </div>
-          <h1 className="text-3xl font-bold text-center mt-5">Welcome to Resurge</h1>
+          <h1 className="text-3xl font-bold text-center mt-5">Welcome to Ene me</h1>
           <p className="text-center text-muted-foreground mt-2">
             Your private companion to break free from any bad habit. No accounts. No tracking. Just you, your data, and your comeback.
           </p>

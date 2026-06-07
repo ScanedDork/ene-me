@@ -10,7 +10,7 @@ import { ArrowLeft, Plus, Trash2, Calendar, Phone, Gift, Trophy, Flame, Sprout, 
 import { useMemo, useState } from "react";
 
 export const Route = createFileRoute("/habits/$habitId")({
-  head: () => ({ meta: [{ title: "Habit detail — Resurge" }, { name: "description", content: "Your personal recovery plan, coping strategies, and streak history." }] }),
+  head: () => ({ meta: [{ title: "Habit detail — Ene me" }, { name: "description", content: "Your personal recovery plan, coping strategies, and streak history." }] }),
   component: HabitDetail,
 });
 

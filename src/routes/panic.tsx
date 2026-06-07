@@ -6,7 +6,7 @@ import { ShieldAlert, Wind, Timer, Phone, ChevronLeft, CheckCircle2, XCircle } f
 import { useEffect, useRef, useState } from "react";
 
 export const Route = createFileRoute("/panic")({
-  head: () => ({ meta: [{ title: "Panic Button — Resurge" }, { name: "description", content: "Emergency tools to ride out an urge: breathing, urge-surfing timer, distractions." }] }),
+  head: () => ({ meta: [{ title: "Panic Button — Ene me" }, { name: "description", content: "Emergency tools to ride out an urge: breathing, urge-surfing timer, distractions." }] }),
   component: Panic,
 });
 

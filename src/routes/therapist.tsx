@@ -8,7 +8,7 @@ import { useMemo } from "react";
 export const Route = createFileRoute("/therapist")({
   head: () => ({
     meta: [
-      { title: "Therapist Export — Resurge" },
+      { title: "Therapist Export — Ene me" },
       { name: "description", content: "One-page PDF pack of your last 4 weeks for a clinician." },
     ],
   }),
@@ -39,7 +39,7 @@ function TherapistExport() {
     doc.rect(0, 0, 210, 30, "F");
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(18);
-    doc.text("Resurge — Therapist Pack", 14, 18);
+    doc.text("Ene me — Therapist Pack", 14, 18);
     doc.setFontSize(10);
     doc.text(`Last 28 days · Generated ${new Date().toLocaleDateString()}`, 14, 25);
 
