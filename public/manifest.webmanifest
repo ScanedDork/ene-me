@@ -1,0 +1,19 @@
+{
+  "name": "Ene me — Local-first recovery & habit reset",
+  "short_name": "Ene me",
+  "description": "Open-source, local-first recovery toolkit: streaks, CBT, AI urge coach, panic button. Bring your own AI.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0b12",
+  "theme_color": "#0b0b12",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
